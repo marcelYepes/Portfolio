@@ -1,8 +1,8 @@
 import "./App.css"
+import Contact from "./components/Contact"
 import Main from "./components/Main"
 import Projects from "./components/Projects"
 import Sidenav from "./components/Sidenav"
-
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Sidenav />
       <Main />
       <Projects />
+      <Contact />
     </div>
   )
 }
