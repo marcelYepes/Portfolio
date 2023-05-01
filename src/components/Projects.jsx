@@ -1,9 +1,9 @@
 import React from "react"
 import ProjectItem from "./ProjectItem"
-import crud from "./crud.png"
-import galletasFortuna from "./galletasFortuna.png"
-import rickymortyapp from "./rickymortyapp.png"
-import weatherapp from "./weatherapp.png"
+import crud from "../assets/crud.png"
+import galletasFortuna from "../assets/galletasFortuna.png"
+import rickymortyapp from "../assets/rickymortyapp.png"
+import weatherapp from "../assets/weatherapp.png"
 
 const Projects = () => {
   return (
