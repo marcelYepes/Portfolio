@@ -4,6 +4,7 @@ import crud from "../assets/crud.png"
 import galletasFortuna from "../assets/galletasFortuna.png"
 import rickymortyapp from "../assets/rickymortyapp.png"
 import weatherapp from "../assets/weatherapp.png"
+import pokedex from "../assets/pokedex.png"
 
 const Projects = () => {
   return (
@@ -12,19 +13,14 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        En esta sección podrás ver algunos proyectos desarrollados utilizando
-        React Js y Vite.
+        In this section you will be able to see some projects developed using
+        React Js with Vite.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
-          img={crud}
-          title="Crud App"
-          src="https://crud-myep.netlify.app"
-        />
-        <ProjectItem
-          img={galletasFortuna}
-          title="GalletasFortuna App"
-          src="https://galletasfortuna.netlify.app"
+          img={pokedex}
+          title="Pokedex App"
+          src="https://pokedex-myep.netlify.app/"
         />
         <ProjectItem
           img={rickymortyapp}
@@ -35,6 +31,11 @@ const Projects = () => {
           img={weatherapp}
           title="Weather App"
           src="https://myaweather-app.netlify.app"
+        />
+        <ProjectItem
+          img={galletasFortuna}
+          title="GalletasFortuna App"
+          src="https://galletasfortuna.netlify.app"
         />
       </div>
     </div>

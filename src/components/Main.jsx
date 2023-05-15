@@ -1,5 +1,5 @@
 import React from "react"
-import { TypeAnimation } from "react-type-animation"
+import {TypeAnimation} from "react-type-animation"
 
 const Main = () => {
   return (
@@ -20,15 +20,9 @@ const Main = () => {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: "1em", paddingLeft: "5px" }}
+              style={{fontSize: "1em", paddingLeft: "5px"}}
             />
           </h2>
-          <p className="flex sm:text-2xl text-1xl p-4 text-gray-800">
-            I am a responsible, honest and proactive person. I have worked in
-            multicultural and bilingual environments. My experience in working
-            groups at an industrial level has reinforced my analytical skills
-            and attention to detail.
-          </p>
         </div>
       </div>
     </div>
