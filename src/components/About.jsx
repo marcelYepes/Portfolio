@@ -17,8 +17,8 @@ const About = () => {
         <div className="w-full md:w-1/2 text-base md:text-lg text-left md: text-left ">
           <p className="mb-3 opacity-70">
             I am a full stack developer, with skills in HTML, CSS, JavaScript,
-            React, Node Js. I am a responsible, honest and proactive person, I
-            have worked in multicultural and bilingual environments. My
+            React and Node Js. I am a responsible, honest and proactive person,
+            I have worked in multicultural and bilingual environments. My
             experience in working groups at an industrial level has reinforced
             my analytical skills and attention to detail.
           </p>

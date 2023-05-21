@@ -1,10 +1,11 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 import {
   AiOutlineMenu,
   AiOutlineHome,
   AiOutlineProject,
   AiOutlineMail,
   AiFillLinkedin,
+  AiOutlineFileText,
 } from "react-icons/ai"
 import {BsPerson} from "react-icons/bs"
 
@@ -13,6 +14,19 @@ const Sidenav = () => {
   const handleNav = () => {
     setNav(!nav)
   }
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 700) {
+        setNav(true)
+      } else {
+        setNav(false)
+      }
+    }
+
+    window.addEventListener("resize", handleResize)
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
 
   return (
     <div>
@@ -56,6 +70,16 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
+            href="https://drive.google.com/file/d/1UuBUz7C0IbS8-spYoY5HIKFfJSYgzP3h/view?usp=share_link"
+            target="_blank"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <AiOutlineFileText size={20} />
+            <span className="pl-4">Resume</span>
+          </a>
+
+          <a
+            onClick={handleNav}
             href="https://www.linkedin.com/in/marcel-yepes-50a8601b0/"
             target="_blank"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -92,6 +116,13 @@ const Sidenav = () => {
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration 300"
           >
             <AiOutlineMail size={20} />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1UuBUz7C0IbS8-spYoY5HIKFfJSYgzP3h/view?usp=share_link"
+            target="_blank"
+            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration 300"
+          >
+            <AiOutlineFileText size={20} />
           </a>
           <a
             href="https://www.linkedin.com/in/marcel-yepes-50a8601b0/"
