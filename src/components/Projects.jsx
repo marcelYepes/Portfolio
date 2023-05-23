@@ -1,7 +1,6 @@
 import React from "react"
 import ProjectItem from "./ProjectItem"
-import crud from "../assets/crud.png"
-import galletasFortuna from "../assets/galletasFortuna.png"
+import ecommerce from "../assets/ecommerce.png"
 import rickymortyapp from "../assets/rickymortyapp.png"
 import weatherapp from "../assets/weatherapp.png"
 import pokedex from "../assets/pokedex.png"
@@ -18,6 +17,11 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={ecommerce}
+          title="e-commerce"
+          src="https://e-commerce-myepes.netlify.app/"
+        />
+        <ProjectItem
           img={pokedex}
           title="Pokedex App"
           src="https://pokedex-myep.netlify.app/"
@@ -31,11 +35,6 @@ const Projects = () => {
           img={weatherapp}
           title="Weather App"
           src="https://myaweather-app.netlify.app"
-        />
-        <ProjectItem
-          img={galletasFortuna}
-          title="GalletasFortuna App"
-          src="https://galletasfortuna.netlify.app"
         />
       </div>
     </div>
