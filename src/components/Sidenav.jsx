@@ -15,19 +15,6 @@ const Sidenav = () => {
     setNav(!nav)
   }
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 700) {
-        setNav(true)
-      } else {
-        setNav(false)
-      }
-    }
-
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
-
   return (
     <div>
       <AiOutlineMenu
