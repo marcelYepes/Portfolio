@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 const About = () => {
   return (
     <section id="about" className="py-32">
-      <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e] dark:text-white">
         About me
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 m-auto md:pl-20 p-4">
@@ -14,7 +14,7 @@ const About = () => {
             alt="profile"
           />
         </div>
-        <div className="w-full md:w-1/2 text-base md:text-lg text-left md: text-left ">
+        <div className="w-full md:w-1/2 text-base dark:text-gray-300 md:text-lg text-left md: text-left ">
           <p className="mb-3 opacity-70">
             I am a full stack developer, with skills in HTML, CSS, JavaScript,
             React and Node Js. I am a responsible, honest and proactive person,
@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

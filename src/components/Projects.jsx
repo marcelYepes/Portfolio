@@ -1,17 +1,17 @@
-import React from "react"
-import ProjectItem from "./ProjectItem"
-import ecommerce from "../assets/ecommerce.png"
-import rickymortyapp from "../assets/rickymortyapp.png"
-import weatherapp from "../assets/weatherapp.png"
-import pokedex from "../assets/pokedex.png"
+import React from "react";
+import ProjectItem from "./ProjectItem";
+import ecommerce from "../assets/ecommerce.png";
+import rickymortyapp from "../assets/rickymortyapp.png";
+import weatherapp from "../assets/weatherapp.png";
+import pokedex from "../assets/pokedex.png";
 
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] dark:text-white">
         Projects
       </h1>
-      <p className="text-center py-8">
+      <p className="text-center py-8 dark:text-gray-300">
         In this section you will be able to see some projects developed using
         React Js with Vite.
       </p>
@@ -38,7 +38,7 @@ const Projects = () => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

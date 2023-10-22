@@ -1,5 +1,5 @@
-import React from "react"
-import {TypeAnimation} from "react-type-animation"
+import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
@@ -20,13 +20,13 @@ const Main = () => {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              style={{fontSize: "1em", paddingLeft: "5px"}}
+              style={{ fontSize: "1em", paddingLeft: "5px" }}
             />
           </h2>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

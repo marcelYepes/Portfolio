@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useState } from "react";
 import {
   AiOutlineMenu,
   AiOutlineHome,
@@ -6,14 +6,14 @@ import {
   AiOutlineMail,
   AiFillLinkedin,
   AiOutlineFileText,
-} from "react-icons/ai"
-import {BsPerson} from "react-icons/bs"
+} from "react-icons/ai";
+import { BsPerson } from "react-icons/bs";
 
 const Sidenav = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
   const handleNav = () => {
-    setNav(!nav)
-  }
+    setNav(!nav);
+  };
 
   return (
     <div>
@@ -121,7 +121,7 @@ const Sidenav = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Sidenav
+export default Sidenav;
