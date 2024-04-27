@@ -57,7 +57,7 @@ const Sidenav = () => {
           </a>
           <a
             onClick={handleNav}
-            href="https://drive.google.com/file/d/11TzwDBdnPVHWxXAViBW5fIuXMic6TiuN/view?usp=drive_link"
+            href="https://drive.google.com/file/d/12IWM17dz9AkH5Uy-Qo-g91fwQ7hjKyy-/view?usp=drive_link"
             target="_blank"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
@@ -105,7 +105,7 @@ const Sidenav = () => {
             <AiOutlineMail size={20} />
           </a>
           <a
-            href="https://drive.google.com/file/d/11TzwDBdnPVHWxXAViBW5fIuXMic6TiuN/view?usp=drive_link"
+            href="https://drive.google.com/file/d/12IWM17dz9AkH5Uy-Qo-g91fwQ7hjKyy-/view?usp=drive_link"
             target="_blank"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration 300"
           >
